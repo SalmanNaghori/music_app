@@ -1,0 +1,27 @@
+com.app.music.music_app-jetified-annotation-experimental-1.4.0-0 /Users/admin/.gradle/caches/8.11.1/transforms/06a4ab1a88fc400862425940551a269f/transformed/jetified-annotation-experimental-1.4.0/res
+com.app.music.music_app-lifecycle-viewmodel-2.7.0-1 /Users/admin/.gradle/caches/8.11.1/transforms/0d6e5bfe453460d89c091a5d85518d3d/transformed/lifecycle-viewmodel-2.7.0/res
+com.app.music.music_app-jetified-activity-1.8.1-2 /Users/admin/.gradle/caches/8.11.1/transforms/1773949471c15f8dec7dad8ec34c5ab5/transformed/jetified-activity-1.8.1/res
+com.app.music.music_app-jetified-startup-runtime-1.1.1-3 /Users/admin/.gradle/caches/8.11.1/transforms/17b3015662d90e23e3770ac165daa71a/transformed/jetified-startup-runtime-1.1.1/res
+com.app.music.music_app-lifecycle-runtime-2.7.0-4 /Users/admin/.gradle/caches/8.11.1/transforms/1e643018d0f6756b894344fee884edc3/transformed/lifecycle-runtime-2.7.0/res
+com.app.music.music_app-jetified-window-1.2.0-5 /Users/admin/.gradle/caches/8.11.1/transforms/39f6a4f852c4331ab937094c81a7ab45/transformed/jetified-window-1.2.0/res
+com.app.music.music_app-jetified-lifecycle-livedata-core-ktx-2.7.0-6 /Users/admin/.gradle/caches/8.11.1/transforms/6003095329a9b2faf5d4ee5a56be7cdf/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/res
+com.app.music.music_app-jetified-lifecycle-process-2.7.0-7 /Users/admin/.gradle/caches/8.11.1/transforms/6d6f5c89885241031ce5f7b05c6d8d46/transformed/jetified-lifecycle-process-2.7.0/res
+com.app.music.music_app-jetified-savedstate-1.2.1-8 /Users/admin/.gradle/caches/8.11.1/transforms/728a4f8736458b4a2506d62a0389485a/transformed/jetified-savedstate-1.2.1/res
+com.app.music.music_app-lifecycle-livedata-2.7.0-9 /Users/admin/.gradle/caches/8.11.1/transforms/7a31258771a5c418437d809e642a356a/transformed/lifecycle-livedata-2.7.0/res
+com.app.music.music_app-lifecycle-livedata-core-2.7.0-10 /Users/admin/.gradle/caches/8.11.1/transforms/9d01f3567ef906d4b09946ae90769158/transformed/lifecycle-livedata-core-2.7.0/res
+com.app.music.music_app-core-runtime-2.2.0-11 /Users/admin/.gradle/caches/8.11.1/transforms/a5c726028a4dd6a704cfb17d852f6d51/transformed/core-runtime-2.2.0/res
+com.app.music.music_app-jetified-lifecycle-viewmodel-savedstate-2.7.0-12 /Users/admin/.gradle/caches/8.11.1/transforms/bbb515ebec2b608e3502ad5d36f5a5e7/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/res
+com.app.music.music_app-jetified-window-java-1.2.0-13 /Users/admin/.gradle/caches/8.11.1/transforms/bebc0750b29b8292d9963f0d23103935/transformed/jetified-window-java-1.2.0/res
+com.app.music.music_app-jetified-core-1.0.0-14 /Users/admin/.gradle/caches/8.11.1/transforms/c3a9cd824c109e3e1436260713366add/transformed/jetified-core-1.0.0/res
+com.app.music.music_app-jetified-tracing-1.2.0-15 /Users/admin/.gradle/caches/8.11.1/transforms/d2290f29d609e7f3dc85419d542a49ab/transformed/jetified-tracing-1.2.0/res
+com.app.music.music_app-fragment-1.7.1-16 /Users/admin/.gradle/caches/8.11.1/transforms/d9d8433b5936bdb5dbe2504491ec25be/transformed/fragment-1.7.1/res
+com.app.music.music_app-jetified-profileinstaller-1.3.1-17 /Users/admin/.gradle/caches/8.11.1/transforms/e9be69d18a160dc73250e0f4e52e87f7/transformed/jetified-profileinstaller-1.3.1/res
+com.app.music.music_app-jetified-core-ktx-1.13.1-18 /Users/admin/.gradle/caches/8.11.1/transforms/fde316e6168e97c14e8f184677d82736/transformed/jetified-core-ktx-1.13.1/res
+com.app.music.music_app-core-1.13.1-19 /Users/admin/.gradle/caches/8.11.1/transforms/fff9f24084e7c2890723d57af1fbec91/transformed/core-1.13.1/res
+com.app.music.music_app-debug-20 /Users/admin/Documents/Developer/My project/music_app/music_app/android/app/src/debug/res
+com.app.music.music_app-main-21 /Users/admin/Documents/Developer/My project/music_app/music_app/android/app/src/main/res
+com.app.music.music_app-pngs-22 /Users/admin/Documents/Developer/My project/music_app/music_app/build/app/generated/res/pngs/debug
+com.app.music.music_app-resValues-23 /Users/admin/Documents/Developer/My project/music_app/music_app/build/app/generated/res/resValues/debug
+com.app.music.music_app-packageDebugResources-24 /Users/admin/Documents/Developer/My project/music_app/music_app/build/app/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.app.music.music_app-packageDebugResources-25 /Users/admin/Documents/Developer/My project/music_app/music_app/build/app/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.app.music.music_app-debug-26 /Users/admin/Documents/Developer/My project/music_app/music_app/build/app/intermediates/merged_res/debug/mergeDebugResources

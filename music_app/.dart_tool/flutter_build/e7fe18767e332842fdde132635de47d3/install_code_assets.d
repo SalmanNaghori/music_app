@@ -1,0 +1,1 @@
+ /Users/admin/Documents/Developer/My\ project/music_app/music_app/.dart_tool/flutter_build/e7fe18767e332842fdde132635de47d3/native_assets.json: 
