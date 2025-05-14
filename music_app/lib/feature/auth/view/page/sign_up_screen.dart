@@ -14,7 +14,17 @@ class _SignUpScreenState extends State<SignUpScreen> {
     return Scaffold(
       appBar: AppBar(backgroundColor: AppColor.backgroundColor),
       body: ListView(
-        children: [Text("SignUp", style: TextStyle(color: AppColor.whiteColor, fontSize: 28, fontWeight: FontWeight.bold)), Container()],
+        children: [
+          Text(
+            "SignUp",
+            style: TextStyle(
+              color: AppColor.whiteColor,
+              fontSize: 28,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          Container(),
+        ],
       ),
     );
   }
