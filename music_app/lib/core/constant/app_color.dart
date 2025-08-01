@@ -15,6 +15,5 @@ class AppColor {
   static const Color greyColor = Colors.grey;
   static const Color errorColor = Colors.redAccent;
   static const Color transparentColor = Colors.transparent;
-
   static const Color inactiveSeekColor = Colors.white38;
 }
