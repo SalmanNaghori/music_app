@@ -1,16 +1,15 @@
-# music_app
+# 🎵 Music App
 
-A new Flutter project.
+A modern Flutter-based **music player app** built using the **MVVM architecture** on **Flutter v3.29.2**.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- 🎶 Play music with smooth controls
+- 🔒 Music visible on **lock screen** and **notification panel**
+- ❤️ Mark songs as **Favorites**
+- ⏯️ Background playback support
+- 🔄 Next, Previous, Play, Pause control
+- 🎧 Modern MVVM architecture for clean separation of concerns
 
-A few resources to get you started if this is your first Flutter project:
+## 🧱 Project Structure (MVVM)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
