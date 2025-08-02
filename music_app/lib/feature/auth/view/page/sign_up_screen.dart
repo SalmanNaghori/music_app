@@ -1,5 +1,8 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:music_app/core/constant/app_color.dart';
+import 'package:music_app/core/constant/app_string.dart';
+import 'package:music_app/feature/auth/view/widget/auth_gradient_button.dart';
 import 'package:music_app/feature/auth/view/widget/custom_textfield.dart';
 
 class SignUpScreen extends StatefulWidget {
@@ -11,6 +14,7 @@ class SignUpScreen extends StatefulWidget {
 
 class _SignUpScreenState extends State<SignUpScreen> {
   //controller
+  final TextEditingController nameController = TextEditingController();
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
@@ -29,7 +33,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
               padding: const EdgeInsets.all(20),
               children: [
                 Text(
-                  "SignUp",
+                  AppString.signUp,
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: AppColor.whiteColor,
@@ -38,9 +42,50 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   ),
                 ),
                 const SizedBox(height: 20),
-                CustomTextfield(),
+                CustomTextfield(
+                  controller: nameController,
+                  hintText: AppString.nameHint,
+                  keyboardType: TextInputType.name,
+                  textInputAction: TextInputAction.next,
+                ),
                 const SizedBox(height: 20),
-                CustomTextfield(),
+                CustomTextfield(
+                  controller: emailController,
+                  hintText: AppString.emailHint,
+                  keyboardType: TextInputType.emailAddress,
+                  textInputAction: TextInputAction.next,
+                ),
+                const SizedBox(height: 20),
+                CustomTextfield(
+                  controller: passwordController,
+                  hintText: AppString.passwordHint,
+                  obscureText: true,
+                  keyboardType: TextInputType.visiblePassword,
+                  textInputAction: TextInputAction.done,
+                ),
+                const SizedBox(height: 20),
+                AuthGradientButton(text: AppString.signUp, onPressed: () {}),
+                const SizedBox(height: 20),
+                RichText(
+                  text: TextSpan(
+                    text: 'Already have an account? ',
+                    style: TextStyle(color: AppColor.whiteColor, fontSize: 16),
+                    children: [
+                      TextSpan(
+                        text: AppString.signIn,
+                        style: TextStyle(
+                          color: AppColor.gradient1,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        recognizer:
+                            TapGestureRecognizer()
+                              ..onTap = () {
+                                // Navigate to Sign In Screen
+                              },
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
