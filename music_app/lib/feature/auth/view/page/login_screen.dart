@@ -5,16 +5,15 @@ import 'package:music_app/core/constant/app_string.dart';
 import 'package:music_app/feature/auth/view/widget/auth_gradient_button.dart';
 import 'package:music_app/feature/auth/view/widget/custom_textfield.dart';
 
-class SignUpScreen extends StatefulWidget {
-  const SignUpScreen({super.key});
+class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
 
   @override
-  State<SignUpScreen> createState() => _SignUpScreenState();
+  State<LoginScreen> createState() => _LoginScreenState();
 }
 
-class _SignUpScreenState extends State<SignUpScreen> {
+class _LoginScreenState extends State<LoginScreen> {
   //controller
-  final TextEditingController nameController = TextEditingController();
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
@@ -23,7 +22,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
   @override
   void dispose() {
-    nameController.dispose();
     emailController.dispose();
     passwordController.dispose();
     super.dispose();
@@ -46,20 +44,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 padding: const EdgeInsets.all(20),
                 children: [
                   Text(
-                    AppString.signUp,
+                    AppString.signIn,
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: AppColor.whiteColor,
                       fontSize: 50,
                       fontWeight: FontWeight.bold,
                     ),
-                  ),
-                  const SizedBox(height: 20),
-                  CustomTextfield(
-                    controller: nameController,
-                    hintText: AppString.nameHint,
-                    keyboardType: TextInputType.name,
-                    textInputAction: TextInputAction.next,
                   ),
                   const SizedBox(height: 20),
                   CustomTextfield(
@@ -77,18 +68,18 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     textInputAction: TextInputAction.done,
                   ),
                   const SizedBox(height: 20),
-                  AuthGradientButton(text: AppString.signUp, onPressed: () {}),
+                  AuthGradientButton(text: AppString.signIn, onPressed: () {}),
                   const SizedBox(height: 20),
                   RichText(
                     textAlign: TextAlign.center,
                     text: TextSpan(
-                      text: AppString.alreadyHaveAnAccount,
+                      text: AppString.dontHaveAanAccount,
                       style: Theme.of(context).textTheme.titleMedium?.copyWith(
                         color: AppColor.whiteColor,
                       ),
                       children: [
                         TextSpan(
-                          text: AppString.signIn,
+                          text: AppString.signUp,
                           style: TextStyle(
                             color: AppColor.gradient2,
                             fontWeight: FontWeight.bold,

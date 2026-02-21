@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:music_app/core/theme/app_theme.dart';
+import 'package:music_app/feature/auth/view/page/login_screen.dart';
 import 'package:music_app/feature/auth/view/page/sign_up_screen.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: AppTheme.darkThemeMode,
-      home: SignUpScreen(),
+      home: LoginScreen(),
     );
   }
 }

@@ -33,8 +33,15 @@ class _CustomTextfieldState extends State<CustomTextfield> {
       keyboardType: widget.keyboardType ?? TextInputType.emailAddress,
       decoration: InputDecoration(
         hintText: widget.hintText ?? "",
+        hintStyle: TextStyle(color: AppColor.whiteColor.withOpacity(0.6)),
         border: OutlineInputBorder(),
       ),
+      validator: (value) {
+        if (value == null || value.trim().isEmpty) {
+          return '${widget.hintText} cannot be empty';
+        }
+        return null;
+      },
       style: TextStyle(color: AppColor.whiteColor),
       cursorColor: AppColor.gradient2,
     );

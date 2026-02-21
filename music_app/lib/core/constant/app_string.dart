@@ -8,6 +8,8 @@ class AppString {
   static const String emailHint = "Email";
   static const String passwordHint = "Password";
   static const String nameHint = "Name";
+  static const String alreadyHaveAnAccount = "Already have an account? ";
+  static const String dontHaveAanAccount = "Don't have an account? ";
 
   // Error messages
   static const String emailError = "Please enter a valid email address.";
