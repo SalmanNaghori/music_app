@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.app.music.music_app"
-    compileSdk = 35
+    compileSdk = 36
     ndkVersion = "28.0.13004108"
 
     compileOptions {
@@ -19,7 +19,6 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.app.music.music_app"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
@@ -29,12 +28,9 @@ android {
 
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig = signingConfigs.getByName("debug")
         }
     }
-    buildToolsVersion = "36.0.0"
 }
 
 flutter {
